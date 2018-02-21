@@ -241,7 +241,7 @@ public class Main {
             sum += i;
         }//for
         return sum * sum;
-    }//sumOfSquares
+    }//squareOfSum
 
     static void problem7(int pos) {
         int count = 3;
@@ -442,6 +442,6 @@ public class Main {
             }//if
         }//for - add up all numbers not crossed out
         System.out.println("Sum of primes below " + limit + " is " + sum);
-    }//problem10Opt - Using PDF for more efficient method
+    }//problem10Opt - Using the PDF for more efficient method
 
 }//Main class
